@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th{
+            height: 80px;
+            text-align: center;
+            background-color: chartreuse;
+        }
+        td{
+            height: 20px;
+        }
+        tr:hover{
+            background-color: red;
+        }
+        /* tr:nth-child(odd) */
+        tr:nth-child(even){
+            background-color: chocolate;
+        }
+        th,td{
+            border-bottom:2px solid deeppink;
+            text-align: left;
+            padding: 10px;
+            
+        }
+        div{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>İsim</th>
+                <th>Soyisim</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+            </tr>
+            <tr>
+                <td>Alperen Barış</td>
+                <td>Mantaş</td>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+            </tr>
+            <tr>
+                <td>Ayşe</td>
+                <td>Mantaş</td>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+            </tr>
+            <tr>
+                <td>Cumali</td>
+                <td>Mantaş</td>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+            </tr>
+            <tr>
+                <td>Sümeyye</td>
+                <td>Mantaş</td>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+                <th>deneme</th>
+            </tr>
+        </table>
+    </div>
+    <!-- <table>
+        <tr>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+        </tr>
+        <tr>
+            <td>Alperen Barış</td>
+            <td>Mantaş</td>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+        </tr>
+        <tr>
+            <td>Ayşe</td>
+            <td>Mantaş</td>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+        </tr>
+        <tr>
+            <td>Cumali</td>
+            <td>Mantaş</td>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+        </tr>
+        <tr>
+            <td>Sümeyye</td>
+            <td>Mantaş</td>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+            <th>deneme</th>
+        </tr>
+    </table> -->
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            float: left;
+            width: 33.33%;
+            border: 1px solid blueviolet;
+            padding: 30px;
+            text-align: center;
+        }
+        .div1{
+            margin-bottom: 10px;
+        }
+        .div1::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .div2::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .div2{
+            border: 2px solid red;
+            background-color: cadetblue;
+            border-collapse: collapse;
+        }
+        .box2{
+            float: left;
+            width: 20%;
+            border-right: 2px solid red;
+            background-color: aquamarine;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul{
+            list-style-type: none;
+            margin-top: 20px;
+            padding: 0;
+            background-color: blueviolet;
+            overflow: auto;
+        }
+        li{
+            float: left;
+            /* border:1px solid deeppink; */
+            background-color: aqua;
+            padding: 20px;
+        }
+        li a{
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        li a:hover{
+            color: magenta;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Eşit Kutular</h2>
+    <div class="div1">
+        <div class="box" style="background-color: pink;">
+            <p>Lorem ipsum dolor sit,</p>
+        </div>
+        <div class="box" style="background-color: pink;">
+            <p>Lorem ipsum dolor sit</p>
+        </div>
+        <div class="box" style="background-color: pink;">
+            <p>Lorem ipsum dolor,</p>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam commodi impedit corporis necessitatibus labore voluptates consectetur quae. Saepe aliquid animi minus modi quia voluptatem minima suscipit deleniti rerum earum deserunt accusantium tempora totam distinctio reprehenderit impedit reiciendis ipsa amet id, sequi nostrum ducimus. Placeat, assumenda! Laboriosam animi pariatur qui quod blanditiis ad placeat, autem necessitatibus error cumque nulla omnis perspiciatis aliquid molestiae explicabo debitis commodi doloribus reiciendis sequi voluptate tempore. Reprehenderit vero debitis facere amet asperiores aut expedita tempora, iusto, ratione doloribus culpa reiciendis iste corporis in eaque accusamus, doloremque hic vitae veniam. Architecto quod, sunt quis ipsam soluta molestias.</p>
+    
+    <div class="div2">
+        <div class="box2">
+            <p>Home</p>
+        </div>
+        <div class="box2">
+            <p>News</p>
+        </div>
+        <div class="box2">
+            <p>Contact</p>
+        </div>
+        <div class="box2">
+            <p>About</p>
+        </div>
+    </div>
+
+
+    <ul>
+        <li style="background-color: red;"><a href="#home">Home</a></li>
+        <li style="background-color: rgb(86, 248, 72);"><a href="#news">News</a></li>
+        <li style="background-color: orange;"><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+</body>
+</html>

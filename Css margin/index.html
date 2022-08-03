@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Özellikleri</title>
+    <style>
+        div.mrg{
+            border: 1px solid mediumvioletred;
+            padding: 5px;
+            /* margin-top: 35px;
+            margin-left: 10px;
+            margin-right: 10px; */
+            background-color: azure;
+            margin: 30px  20px 5px;
+        }
+        h2.mrg{
+            margin-top: 40px;
+            text-align: center;
+            color: darkcyan;
+        }
+        h2.inh{
+            margin:30px;
+            text-align: center;
+            color: darkcyan;
+        }
+        div.inh{
+            border: 1px solid mediumvioletred;
+            padding: 5px;
+            background-color: azure;
+            margin: 30px  20px 0px;
+        }
+        p.inh{
+            margin-left: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 class="mrg">Margin Özellikleri</h2>
+    <div class="mrg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, possimus minus nostrum dolor explicabo sint sequi atque? Excepturi nam optio repellendus quam corporis quia vel dignissimos nulla unde, neque inventore.
+    </div>
+    <div class="mrg" style="margin-top:0px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur magnam corporis fuga delectus, hic sit deserunt eius eum quis, assumenda atque voluptates molestias quam doloremque aut voluptatem ea quisquam laudantium iure veritatis. Est, dolor distinctio odio laudantium aliquam beatae adipisci ipsam vel magni minima.
+    </div>
+
+
+    <h2 class="inh">İnherit Kullanımı</h2>
+    <div class="inh">
+        <p class="inh">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut repudiandae nisi reprehenderit minus ad eveniet molestias quasi tempore, repellat debitis.
+        </p>
+    </div>
+
+
+    
+
+</body>
+</html>

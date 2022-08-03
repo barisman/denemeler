@@ -1,0 +1,10 @@
+table{
+    border: 2px solid aqua;
+}
+h2{
+   font-style: italic; color:black;  text-align: center;
+}
+td{
+    font-size: 110%;
+    background-color: aquamarine;
+}

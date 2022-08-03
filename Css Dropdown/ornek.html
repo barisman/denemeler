@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        .div1{
+            margin: 0px;
+            padding: 0px;
+        }
+        .ul1{
+            margin-top: 0px;
+            list-style-type: none;
+            text-align: center;
+            display: inline-block;
+            background-color: blue;
+            width: 100%;   
+        }
+        .ul1 li{
+            float: left;
+            padding: 15px;
+        }
+        .ul1 .li:hover{
+            background-color: darkgoldenrod; 
+            cursor: pointer;
+        }
+        .div2 a:hover{
+            background-color: hotpink;
+        }
+        .div2 a{
+            padding: 10px;
+            cursor: pointer;  
+            display: block;
+            text-align: left;
+        }
+        .div2{
+            position: absolute;
+            display: none;
+            background-color: rgb(151, 146, 146);
+            min-width: 200px;
+            box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        #drop:hover .div2 {
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    
+        <div class="div1">
+            <ul class="ul1">
+                <li class="li"><a href="#">Home</a></li>
+                <li class="li"><a href="#">News</a></li>
+                <li class="li" id="drop"><a>Dropdown</a>
+                    <div class="div2">
+                        
+                        <a href="#">Css</a>
+                        <a href="#">Html</a>
+                        <a href="#">JavaScript</a>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+</body>
+</html>

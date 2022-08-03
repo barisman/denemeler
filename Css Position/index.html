@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.static{
+            position: fixed;
+            border:2px solid deeppink ;
+            right: 0px;
+            width: 60%;
+            height: 30%;
+            padding: 10px;
+            
+        }
+        div.relative{
+            position: relative;
+            border:2px solid deeppink ;
+            right: 0px;
+            bottom: 0px;
+            width: 500px;
+            height: 200px;
+            padding: 10px;
+        }
+        div.absolute{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            border: 3px solid blueviolet;
+            top: 70px;
+            /* padding: 10px; */
+            right: 0px;
+        }
+
+        div.k{
+            position: sticky;
+            border:2px solid deepskyblue;
+            background-color:darkseagreen;
+            padding: 8px;
+            top: 30px;
+        }
+        img{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            opacity: 0.5;
+            width: 100%;
+            
+        }
+        .parent{
+            position: relative;
+        }
+        .alp{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>Position Static</h2>
+
+    <div class="static">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio velit aut odio iure, reprehenderit possimus quo error corporis tenetur ex quasi impedit nesciunt, dignissimos et ut consectetur, deleniti iste ad? Accusamus totam voluptates recusandae distinctio, magnam ratione assumenda? Esse vel facilis aliquam dolorum nesciunt possimus qui blanditiis, magnam quaerat ex ipsum eius cum rem officia veniam numquam suscipit laudantium consequatur odit quidem perferendis. Hic excepturi culpa eaque distinctio placeat expedita incidunt quos saepe maxime doloribus. Dolores non harum assumenda natus, minima cum aliquid nostrum maiores nobis corporis molestias ipsa et eum in a eius. Totam laborum soluta natus quidem ipsum. Sapiente distinctio modi excepturi inventore deserunt ipsum, praesentium tempora ab nisi repudiandae quaerat repellendus explicabo iusto, corporis fuga assumenda voluptatum. Neque, aspernatur ab. Aliquam at provident vero voluptas distinctio repellendus quidem unde, illum corporis ipsum eos architecto accusamus ad enim doloremque eum molestias nihil et facilis a quos facere perferendis.
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+    <h2>Position Relative</h2>
+    <div class="relative">Relative
+        <div class="absolute">
+            Absolute
+
+        </div>
+    </div><br><br><br><br>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, incidunt quis ut repellendus, repudiandae id laudantium consequuntur iure veritatis dolores adipisci reprehenderit sit esse facere voluptatem provident tempore expedita! Culpa nulla, error incidunt laboriosam itaque repellendus maiores dolorum, id, odio dicta placeat quis beatae sapiente eius expedita. Distinctio temporibus ut at harum numquam. Porro maiores rem ad sint accusamus molestias illum officia dolore incidunt eos blanditiis autem ducimus culpa quod sed officiis numquam dicta explicabo, aliquam dolorum! Ad amet rerum dolores? Velit fugit placeat quidem laborum, assumenda in voluptatem distinctio qui, excepturi minima quod! Expedita sequi, quae doloribus ipsum nobis temporibus ducimus. Quasi id suscipit dolor totam ratione. Exercitationem cupiditate consequatur sed tenetur maiores ad sunt dicta eius voluptates at nemo maxime rem ex sint earum culpa, dignissimos, perferendis vitae hic aspernatur enim voluptas! Temporibus quia ab autem fugit soluta odit ipsum sed deleniti perferendis. Laborum deserunt dignissimos pariatur eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sed voluptatem eius iste aliquam, deleniti dolor architecto tenetur sit saepe quisquam, quos nobis? Provident, magnam eveniet. Animi, iste. Reiciendis provident, aliquam nesciunt animi suscipit excepturi mollitia quas neque voluptatibus dolore deleniti dolorum explicabo voluptatem, tempore quia. Eaque asperiores totam corrupti voluptatibus, ab autem tempora porro ullam, quas repellat nobis ad ipsum vel id inventore cum earum. Ab ipsam doloremque incidunt, totam possimus praesentium minima fuga, aliquam quisquam molestiae saepe mollitia velit repellendus iure laborum ut ipsum. Neque reiciendis placeat eligendi perferendis, odio, sed eius possimus ratione quis maiores, reprehenderit laborum.</p>
+    <div class="k">
+        Ben Alperen.
+    </div>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam in quis voluptates eos. Repellendus animi sequi nostrum commodi reprehenderit culpa delectus corrupti maxime vero voluptatum.
+    </div>
+
+
+    <h1>Alperen Barış</h1>
+    <div class="parent">
+        <img src="zoro.jpg"   alt="">
+        <div class="alp">
+            Lorem ipsum 
+        </div>
+    </div>
+    
+
+</body>
+</html>
