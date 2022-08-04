@@ -5,8 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div.gallery{
+            border: 1px solid rgb(246, 188, 240);
+        }
+        div.gallery img{
+            width: 100%;
+            height: auto;
+        }
+        .desc{
+            padding: 15px;
+            text-align: center;
+        }
+        div.gallery:hover{
+            border:1px solid black;
+        }
+        .responsive{
+            float: left;
+            width: 25%;
+            padding: 0 5px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+            padding: 8px;
+        }
+        @media only screen and (max-width:700px){
+            .responsive{
+                width: 50%;
+            }
+        }
+        @media only screen and (max-width:460px){
+            .responsive{
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="1.jpg">
+            <img src="1.jpg" alt="">
+        </a>
+        <div class="desc">
+            Fotoğraf 1
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="2.jpg">
+            <img src="2.jpg" alt="">
+        </a>
+        <div class="desc">
+            Fotoğraf 2
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="3.jpg">
+            <img src="3.jpg" alt="">
+        </a>
+        <div class="desc">
+            Fotoğraf 3
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="4.jpg">
+            <img src="4.jpg" alt="">
+        </a>
+        <div class="desc">
+            Fotoğraf 4
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas reprehenderit amet necessitatibus? Praesentium animi quibusdam eius quia omnis deleniti quaerat voluptas ut. Numquam illo quia excepturi cupiditate eveniet, nam dolorum delectus aut eius sapiente autem distinctio deserunt nihil expedita assumenda necessitatibus voluptatem laudantium, quaerat architecto perferendis reprehenderit laborum dicta repellat. Illum, quo voluptas vitae sunt dolores accusantium eaque cum odit magnam omnis assumenda neque voluptatem eveniet officiis libero magni dolor quis, corporis non! Repellat fugiat cumque quisquam sunt neque eligendi est tenetur, exercitationem, facere earum eius culpa rerum distinctio amet beatae cum tempore deleniti iusto vitae aliquam. Unde assumenda quidem voluptatem odit itaque quasi nihil tenetur aspernatur, id facilis possimus velit sapiente dolor, ut molestiae eaque mollitia illo veritatis. Earum praesentium natus a, incidunt soluta ullam, quisquam deleniti adipisci consequuntur non officiis alias ratione dolor facilis? Neque esse unde, quaerat nemo officia aspernatur dolor voluptates dignissimos nobis. Aliquam consequatur quia enim quasi, doloribus laudantium rem dolorum quos aspernatur, explicabo cumque reprehenderit dolor soluta nostrum itaque architecto. Soluta in veritatis eveniet excepturi ex animi ad adipisci unde consectetur nihil! Accusantium a ea quae laboriosam nihil perspiciatis, voluptatibus quisquam saepe aperiam distinctio itaque, dolorum dignissimos fugiat quaerat sint tempora modi aspernatur sunt repudiandae reiciendis aliquam asperiores. Impedit ducimus porro numquam ullam itaque, vero voluptas nesciunt ea labore animi unde ipsa a deserunt soluta quisquam voluptates reprehenderit minima. Minima illo voluptates aliquam omnis obcaecati, aut deserunt commodi nihil atque laborum, cum porro. Nisi, tenetur! Velit quidem, expedita rerum ut sequi quisquam iste quo similique voluptatum omnis modi aliquam accusantium voluptates et necessitatibus laborum! Inventore culpa nam debitis nulla omnis excepturi corporis commodi, exercitationem ab tenetur ipsum accusamus, iusto recusandae laudantium necessitatibus harum nemo? Quam quas, delectus, voluptatem asperiores odio quaerat magnam deleniti quibusdam nam quo ut at dolore, veritatis velit unde ratione!
+</div>
 </body>
 </html>
